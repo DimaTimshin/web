@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddToFavorite renders right Renders correctly while loading 1`] = `
+<div
+  className="favorite-container"
+>
+  <div
+    className="favorite-bar"
+  >
+    <p>
+      Marunouchi
+    </p>
+    <p />
+    <button
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>
+  <div
+    className="loading"
+  >
+    <div
+      className="css-0"
+    >
+      <div
+        className="css-110do72"
+      />
+      <div
+        className="css-1by9rry"
+      />
+      <div
+        className="css-110do72"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AddToFavorite renders right Renders correctly with error catched 1`] = `
+<div
+  className="favorite-container"
+>
+  <div
+    className="favorite-bar"
+  >
+    <p>
+      12
+    </p>
+    <p />
+    <button
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>
+  <div
+    className="error"
+  >
+    <p>
+      Something goes wrong: 
+      404
+    </p>
+  </div>
+</div>
+`;
+
+exports[`AddToFavorite renders right Renders correctly with fetched data 1`] = `
+<div
+  className="favorite-container"
+>
+  <div
+    className="favorite-bar"
+  >
+    <p>
+      Marunouchi
+    </p>
+    <p>
+      13.11
+       °C
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>
+  <div
+    className="favorite-bot"
+  >
+    <div
+      className="favorite-q"
+    >
+      <p>
+        Wind:
+      </p>
+      <p>
+        Clouds:
+      </p>
+      <p>
+        Pressure:
+      </p>
+      <p>
+        Humidity:
+      </p>
+      <p>
+        Coord:
+      </p>
+    </div>
+    <div
+      className="favorite-a"
+    >
+      <p>
+        2.6
+         m/s
+      </p>
+      <p>
+        few clouds
+      </p>
+      <p>
+        761
+         mmHg
+      </p>
+      <p>
+        63
+         %
+      </p>
+      <p>
+        [
+        35.68
+        , 
+        139.76
+        ]
+      </p>
+    </div>
+  </div>
+</div>
+`;

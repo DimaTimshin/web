@@ -1,0 +1,8 @@
+/.cache
+/.nyc_output
+/coverage
+/build
+/node_modules
+/static
+*.css.map
+*.css
